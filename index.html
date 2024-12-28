@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Madras Redesign - Data Science</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="navbar">
+            <div class="logo">IIT Madras - Data Science</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle">Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Welcome to the IIT Madras Data Science Program</h1>
+                <p>Shape your future with world-class education in Data Science and Machine Learning.</p>
+                <a href="#" class="cta-button">Apply Now</a>
+            </div>
+
+            <div class="hero-animation">
+                <svg id="animatedShape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="40" stroke="#ffcc00" stroke-width="2" fill="transparent"/>
+                </svg>
+            </div>
+
+        </section>
+
+        <section class="scroll-section features">
+            <h2>Program Highlights</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Flexibility</h3>
+                    <p>Learn at your own pace with flexible schedules.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Expert Faculty</h3>
+                    <p>Guidance from industry experts and top professors.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Industry Aligned</h3>
+                    <p>Curriculum aligned with the latest industry trends.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Global Recognition</h3>
+                    <p>Receive a degree from one of the top institutions.</p>
+                </div>
+            </div>
+            
+            <!-- Modal Structure -->
+            <div id="infoModal" class="modal"> <!-- Add this modal code after the main content -->
+                <div class="modal-content">
+                    <span class="close" id="closeModal">&times;</span>
+                    <h3>Additional Information</h3>
+                    <p>Our Data Science program offers various tracks and modules designed to fit different career goals. Explore more details about the course, faculty, and resources available to students.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="scroll-section call-to-action">
+            <h2>Ready to Join?</h2>
+            <a href="#" class="cta-button">Enroll Today</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IIT Madras - All rights reserved</p>
+    </footer>
+</body>
+</html>
